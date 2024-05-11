@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="templatemo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Uludağ Milli Parkı</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-snapx-photography.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 576 SnapX Photography
+
+https://templatemo.com/tm-576-snapx-photography
+
+-->
+  </head>
+
+<body>
+
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="index.html" class="logo">
+                          <img src="assets/images/uludağ1.logo.png" alt="SnapX Photography Template">
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li><a href="index.html">Ana Sayda</a></li>
+                          <li class="has-sub">
+                              <a href="javascript:void(0)" class="active">Biligi&Fotoğraflar</a>
+                              <ul class="sub-menu">
+                                  <li><a href="contests.html">Fotoğraflar</a></li>
+                                  <li><a href="contest-details.html">Bilgi</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="categories.html">Kategoriler</a></li>
+                          <li><a href="users.html">Kullanıcilar</a></li>
+                      </ul>   
+                      <div class="border-button">
+                        <a id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i>Kayit ol/Giriş yap</a>
+                      </div>
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+        <span class="header_title">Giriş</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+            <div class="">
+                <a href="#" class="social_box fb">
+                    <span class="icon"><i class="fab fa-facebook"></i></span>
+                    <span class="icon_title">Facebook ile Giriş Yap</span>
+
+                </a>
+
+                <a href="#" class="social_box google">
+                    <span class="icon"><i class="fab fa-google-plus"></i></span>
+                    <span class="icon_title">Google ile Giriş yap</span>
+                </a>
+            </div>
+
+            <div class="centeredText">
+                <span>veya kendi mail adresini kullan</span>
+            </div>
+
+            <div class="action_btns">
+                <div class="one_half"><a href="#" id="login_form" class="btn">Giriş</a></div>
+                <div class="one_half last"><a href="#" id="register_form" class="btn">Kayit Ol</a></div>
+            </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+            <form action="" method="post">
+                <label>Mail / Kullanici adi</label>
+                <input name="username" type="text" id="username" />
+              <br />
+
+                <label>Şifre</label>
+                <input name="password" type="password" id="password" />
+              <br />
+
+                <div class="checkbox">
+                    <input id="remember" type="checkbox" />
+                    <label for="remember">Beni Hatirla</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Geri</a></div>
+                    <div class="one_half last"><button type="submit" class="btn btn_red">Giriş yap</button></div>
+                </div>
+            </form>
+
+            <a href="#" class="forgot_password"> Şifrenimi Unuttun?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+            <form action="" method="post">
+                <label>Kullanici adi</label>
+                <input name="username" type="text" id="kullaniciadi" />
+                <br />
+
+                <label>Mail adress</label>
+                <input name="email" type="email" id="mail" />
+                <br />
+
+                <label>şifre</label>
+                <input name="password" type="password" id="şifre" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="send_updates" type="checkbox" />
+                    <label for="send_updates">Ara sıra bana mail gönder</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Geri</a></div>
+                    <div class="one_half last"><button type="submit" class="btn btn_red">Misafir</button></div>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+  </div>
+
+  <div class="page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 header-text">
+          <h2>Kullanici Fotoraflarina Bak <em>içerik Detayları</em></h2>
+          <p>Mutlaka <a rel="nofollow" href="https://templatemo.com/contact" target="_blank">Uludağa gelin</a>, Uludağ milli Parkına Gelip Eğlencenin zirvesine Çıkın.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="thumb">
+            <img src="assets/images/uludağ12.jpg" alt="">
+            <div class="hover-effect">
+              <div class="content">
+                <h4>Dağda Manzarası</h4>
+                <span>Derece: <em>2nd</em></span>
+                <span>Ödül kazandı: <em>Hiç</em></span>
+                <ul>
+                  <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="thumb">
+            <img src="assets/images/portfolio-02.jpg" alt="">
+            <div class="hover-effect">
+              <div class="content">
+                <h4>Doğada Yürüyüş</h4>
+                <span>Derece: <em>3rd</em></span>
+                <span>ödül kazandi: <em>EOS R3</em></span>
+                <ul>
+                  <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="thumb">
+            <img src="assets/images/uludağ" alt="">
+            <div class="hover-effect">
+              <div class="content">
+                <h4>Ormanda Yürüyüş</h4>
+                <span>Derece: <em>4th</em></span>
+                <span>Ödül: <em>EOS R7</em></span>
+                <ul>
+                  <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="thumb">
+            <img src="assets/images/uludağ14.jpg" alt="">
+            <div class="hover-effect">
+              <div class="content">
+                <h4>Orman Doğası</h4>
+                <span>Derece: <em>2nd</em></span>
+                <span>Ödül: <em>EOS R3</em></span>
+                <ul>
+                  <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="thumb">
+            <img src="assets/images/uludağ15.jpg" alt="">
+            <div class="hover-effect">
+              <div class="content">
+                <h4>Nehrin içinden uçun</h4>
+                <span>Derece: <em>1st</em></span>
+                <span>Ödül: <em>EOS R1</em></span>
+                <ul>
+                  <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="thumb">
+            <img src="assets/images/uludağ16.jpg" alt="">
+            <div class="hover-effect">
+              <div class="content">
+                <h4>Uludağ</h4>
+                <span>Derece: <em>2nd</em></span>
+                <span>Kazanılan Ödül: <em>None</em></span>
+                <ul>
+                  <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="thumb">
+            <img src="assets/images/uludağ15.jpg" alt="">
+            <div class="hover-effect">
+              <div class="content">
+                <h4>Uludağ . Part 2</h4>
+                <span>Derece: <em>2nd</em></span>
+                <span>Kazanılan ödül: <em>hiç</em></span>
+                <ul>
+                  <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="thumb">
+            <img src="assets/images/uludağ12.jpg" alt="">
+            <div class="hover-effect">
+              <div class="content">
+                <h4>mavi göl doğasi</h4>
+                <span>derece: <em>4th</em></span>
+                <span>kazanılan ödül: <em>hiç</em></span>
+                <ul>
+                  <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="thumb">
+            <img src="assets/images/uludağ11.jpg" alt="">
+            <div class="hover-effect">
+              <div class="content">
+                <h4>Ormanda Yürüyüş</h4>
+                <span>Derece: <em>3rd</em></span>
+                <span>kazanılan ödül: <em>hiç</em></span>
+                <ul>
+                  <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="main-button">
+            <a href="#">Daha fazla Fotoğraf yükle</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading text-center">
+            <h6>Kullanici ile etkileşim kur</h6>
+            <h4>Utangaç olma <em></em>hemen etkileşim kur<em>fotoğrafçı ile </em></h4>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="info-item">
+            <i class="fa fa-phone"></i>
+            <h4>Telefon Numarasi</h4>
+            <span><a href="#">010-020-0340</a><br><a href="#">090-080-0760</a></span>
+          </div>  
+        </div>
+        <div class="col-lg-4">
+          <div class="info-item">
+            <i class="fa fa-envelope"></i>
+            <h4>Mail adresi</h4>
+            <span><a href="#">info@company.com</a><br><a href="#">SnapX@company.com</a></span>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="info-item">
+            <i class="fa fa-map-marked"></i>
+            <h4>Ofice lokasyonu</h4>
+            <span><a href="#">uludağ otel<br>IL bursa, Türkiye</a></span>
+          </div>
+        </div>
+        <br>
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97536.66597140439!2d29.0533189304892!3d40.18635029054993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca3eb5cd09a047%3A0x2d892c3369ff951!2zWcSxbGTEsXLEsW0vQnVyc2E!5e0!3m2!1str!2str!4v1715256044460!5m2!1str!2str" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-12">
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-lg-6">
+                <fieldset>
+                  <input type="text" name="name" id="name" placeholder="Adiniz..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6">
+                <fieldset>
+                  <input type="text" name="telephone" id="telephone" placeholder="Telofununuz..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6">
+                <fieldset>
+                  <input type="email" name="email" id="email" placeholder="Mail Adresiniz..." required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-6">
+                <fieldset>
+                  <input type="text" name="subject" id="subject" placeholder="Konunuz..." autocomplete="on" >
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <textarea name="message" id="message" placeholder="Mesajınız"></textarea>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="orange-button">Mesaj Gönder</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Bu Site Murat Güven Kaya Tarafındam Ödev Olarak Yapılmıştır</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>

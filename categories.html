@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="templatemo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Uludağ Milli Parkı</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-snapx-photography.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 576 SnapX Photography
+
+https://templatemo.com/tm-576-snapx-photography
+
+-->
+  </head>
+
+<body>
+
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="index.html" class="logo">
+                          <img src="assets/images/uludağ1.logo.png" alt="SnapX Photography Template">
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li><a href="index.html">Ana Sayfa</a></li>
+                          <li class="has-sub">
+                              <a href="javascript:void(0)" class="active">Biligi&Fotoğraflar</a>
+                              <ul class="sub-menu">
+                                  <li><a href="contests.html">Fotoğraflar</a></li>
+                                  <li><a href="contest-details.html">Bilgi</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="categories.html">Kategoriler</a></li>
+                          <li><a href="users.html">Kullanıcilar</a></li>
+                      </ul>   
+                      <div class="border-button">
+                        <a id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i> Kayit ol/Giriş Yap</a>
+                      </div>
+                      <a class='menu-trigger'>
+                          <span>Menü</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+        <span class="header_title">Giriş</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+            <div class="">
+                <a href="#" class="social_box fb">
+                    <span class="icon"><i class="fab fa-facebook"></i></span>
+                    <span class="icon_title">Facebook ile gir</span>
+
+                </a>
+
+                <a href="#" class="social_box google">
+                    <span class="icon"><i class="fab fa-google-plus"></i></span>
+                    <span class="icon_title">Google ile gir</span>
+                </a>
+            </div>
+
+            <div class="centeredText">
+                <span>Veya kendi mail adresini kullan</span>
+            </div>
+
+            <div class="action_btns">
+                <div class="one_half"><a href="#" id="login_form" class="btn">Giriş</a></div>
+                <div class="one_half last"><a href="#" id="register_form" class="btn">Kayit ol</a></div>
+            </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+            <form action="" method="post">
+                <label>Mail / Kullanici ismi</label>
+                <input name="username" type="text" />
+              <br />
+
+                <label>şifre</label>
+                <input name="password" type="password"  />
+              <br />
+
+                <div class="checkbox">
+                    <input id="remember" type="checkbox" />
+                    <label for="remember">Beni hatırla</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> geri</a></div>
+                    <div class="one_half last"><button type="submit" class="btn btn_red">Giriş</button></div>
+                </div>
+            </form>
+
+            <a href="#" class="forgot_password">Şifrenimi Unuttun?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+            <form action="" method="post">
+                <label>Kulanici ismi</label>
+                <input name="username" type="text" id="username" />
+                <br />
+
+                <label>Mail adresi</label>
+                <input name="email" type="email" id="email" />
+                <br />
+
+                <label>Şifre</label>
+                <input name="password" type="password" id="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="send_updates" type="checkbox" />
+                    <label for="send_updates">Bana ara sıra mail gönder</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Geri</a></div>
+                    <div class="one_half last"><button type="submit" class="btn btn_red">Misafir</button></div>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+  </div>
+
+  <div class="page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 header-text">
+          <h2>Uludağ Milli Parkını Keşfet</h2>
+          <p>Buradaki Fotoğrafların Uludağ Milli Parkına Gelmiş ziyaretçilerimizin Siz değerli Misafirlerimiz için Çekmiş olduğu Fotorağraflardır</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-categories">
+    <div class="container">
+      <div class="row">
+
+
+
+  <section class="featured-contests">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading text-center">
+            <h6>Özelleştirilmiş içerikler</h6>
+            <h4>En popüler içeriklere bak</em></h4>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="item">
+            <div class="thumb">
+              <img src="assets/images/featured-image-02.jpg" alt="">
+              <div class="hover-effect">
+                <div class="content">
+                  <div class="top-content">
+                    <span class="award">Ödül Değeri</span>
+                    <span class="price">1,600₺</span>
+                  </div>
+                  <h4>Gece Karalığında yürü</h4>
+                  <div class="info">
+                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>60<br>katılımcı</span>
+                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>188<br>Gönderilmiş</span>
+                  </div>
+                  <div class="border-button">
+                    <a href="contest-details.html">Doğa içeriklerini ara</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="item">
+            <div class="thumb">
+              <img src="assets/images/featured-image-01.jpg" alt="">
+              <div class="hover-effect">
+                <div class="content">
+                  <div class="top-content">
+                    <span class="award">Ödül Değeri</span>
+                    <span class="price">3,200₺</span>
+                  </div>
+                  <h4>Walk In The Nature Night</h4>
+                  <div class="info">
+                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>78<br>katılımcı</span>
+                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>240<br>Gönderilmiş</span>
+                  </div>
+                  <div class="border-button">
+                    <a href="contest-details.html">Doğa içeriklerini ara</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item">
+            <div class="thumb">
+              <img src="assets/images/featured-image-03.jpg" alt="">
+              <div class="hover-effect">
+                <div class="content">
+                  <div class="top-content">
+                    <span class="award">ödül değeri</span>
+                    <span class="price">4,100₺</span>
+                  </div>
+                  <h4>Gece Doğasında yürü</h4>
+                  <div class="info">
+                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>112<br>katılımcı</span>
+                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>286<br>Gönderilmiş</span>
+                  </div>
+                  <div class="border-button">
+                    <a href="contest-details.html">Doğa resimleri ara</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item">
+            <div class="thumb">
+              <img src="assets/images/featured-image-04.jpg" alt="">
+              <div class="hover-effect">
+                <div class="content">
+                  <div class="top-content">
+                    <span class="award">Ödül değeri</span>
+                    <span class="price">3,400₺</span>
+                  </div>
+                  <h4>Gece Doğasında Yürü</h4>
+                  <div class="info">
+                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>54<br>Katılımcı</span>
+                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>140<br>Gönderilmiş</span>
+                  </div>
+                  <div class="border-button">
+                    <a href="contest-details.html">Doğa Resimleri Ara</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item">
+            <div class="thumb">
+              <img src="assets/images/featured-image-05.jpg" alt="">
+              <div class="hover-effect">
+                <div class="content">
+                  <div class="top-content">
+                    <span class="award">Ödül Değeri</span>
+                    <span class="price">2,200₺</span>
+                  </div>
+                  <h4>Gece Doğasında yürü</h4>
+                  <div class="info">
+                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>68<br>katılımcı</span>
+                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>162<br>Gönderilmiş</span>
+                  </div>
+                  <div class="border-button">
+                    <a href="contest-details.html">Doğa resimleri ara</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading text-center">
+            <h6>Yorumlar</h6>
+            <h4>Kullanıcı Yorumları</h4>
+          </div>
+        </div>
+        <div class="col-lg-8 offset-lg-2">
+          <div class="owl-testimonials owl-carousel">
+            <div class="item">
+              <div class="content">
+                <div class="left-content">
+                  <p>“Uludağ'ı anlamak istiyorsanız tek başınıza olmayacak şekilde, tercihen benim yaptığım gibi kalabalık gruplarla yoldan çıkıp orman içi patikaları yürüyeceksiniz. Derelerden, akarsu yataklarından geçip şelaleleri görmeden Uludağ'ı gezdim demek hatalı olur..”</p>
+                  <h4>Seyit Ahmet Denli</h4>
+                  <span>User #007704</span>
+                </div>
+                <div class="image">
+                  <img src="assets/images/author.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="left-content">
+                  <p>“Uludağ gezimiz esnasında gelmişken kayak merkezine de çıkmak istedik özellikle çocukların eğlenmesi için, kayak merkezine gitmeden zaten Uludağ milli parkı'nın içerisinden geçiyorsunuz. Girişlerde HGS sistemi var 60 TL otomatikman çekiyor. Milli Park kayıt en güzel ve temiz, zaten her yer ağaçlık ve ormanlıklar çevrili olduğu için insanın etkilenmemesi mümkün değil. Yollar çok virajlı ama asfalt olduğu için herhangi bir sorun yok ama tabii ki virajları dönmekten bayağı bir sersem gibi oluyorsunuz. Yer yer piknik alanları mevcut, aracınızı istediğiniz gibi bırakabiliyorsunuz. Mangal falan yapanları da gördük hatta etrafta, insanı rahatlatan bir doğası olduğu gerçek, fakat aynı şeyi kayak merkezi için söyleyemeyeceğim tabii ki...”</p>
+                  <h4>Ömer İğde</h4>
+                  <span>User #007772</span>
+                </div>
+                <div class="image">
+                  <img src="assets/images/author.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="left-content">
+                  <p>“Öncelikle gişelerden HGS sistemi olduğu için elden para almıyorlar HGS Nizip kontrol edin yoksa çok büyük bir ödeme ile karşılaşabilirsiniz gişelerden geçtikten sonra sağ ve sol tarafta Mesire Alanı bulunmaktadır Biz giderken sağ taraftaki mesire alanına girdik hemen yol kenarına Arabanızı Park edebiliyorsunuz üstü açık ve kapalı kamelyalar mevcut Biz sabah erken gittiğimiz için kimse yoktu üstü kapalı kamelya seçtik streç ile kamelyanın etrafını çevirdik mangalımızı ve bir torba dolusu odun götürdük odunlarımızı mangalda yaktık bu şekilde ısınma problemini çözdük aynı zamanda götürdüğümüz kızakla çocuklar eğlendiler kardan adam yaptılar kartopu oynadılar piknik tüpümüzü de götürdük çayımızı kahvemizi yaptık öğleden sonra da mangalımızda sucuk yaptık gayet eğlenceli güzel Öğleden sonra biraz kalabalık olmasına rağmen rahatsız edici bir kalabalık yoktu Herkese tavsiye ederim boşu boşuna oteller bölgesine gidip o kalabalığı o trafiği çekmeye hiç gerek yok bu şekilde kendi bahçenizdeymiş gibi rahat bir şekilde pikniğinizi yapıp çocuklarınızı doyasıya eğlenebilir Ayrıca gişeleri geçtikten hemen sonra jandarma kontrol noktası var burada lastiklerinizi kontrol ediyorlar kış lastiği veya zincir olması şartı vardır yoksa oteller bölgesine geçişiniz yasaktır 26.01.2024 Ayrıca Jandarma bölgesinde gişelerin hemen yanında kadın ve erkek Tuvaletleri de vardır ücretsizdir temizlik konusunda orta derece su için ise tuvaletlerde su alabilirsiniz mesire alanındaki Sular soğuk Havadan dolayı akmıyor.”</p>
+                  <h4>Berk Yücedağ</h4>
+                  <span>User #007794</span>
+                </div>
+                <div class="image">
+                  <img src="assets/images/author.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="left-content">
+                  <p>“Doğa harika muhteşem bir milli park. Araçla çok rahat gidilebilecek bir mesafede. Yol manzaraları şahane. Milli park statüsünden çıkarıldığı için giriş ücretsiz.
+                    .”</p>
+                  <h4>Furkan Kılınç</h4>
+                  <span>User #007765</span>
+                </div>
+                <div class="image">
+                  <img src="assets/images/author.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="left-content">
+                  <p>“Uludağa her sene kayak için gideriz. Her gittiğimizde de farklı skipass tarifeleri oluyor ne yazik ki. Geçen sene çocuklar için gün boyu yetişkinlerden daha ucuz bir tarife vardı. Bu sene çocuk tarifesini kaldırmış beyefendiler. Diğer skipass tarifelerindeki ve otopark olsun giriş ücreti olsun fahiş fiyat artışları da cabası. Kayak takımı kiralama olayı da kim ne tutturursa maalesef. Zaten günübirlik sadece kayak için geliyoruz. Otel konaklama ve yeme içme fiyatlarına hiç değinmiyorum. Sırf kayak için bile çok pahalı oluyor artık. Önceki seneler alım gücüne göre nispeten daha uygundu. Arabanız uygunsa kayak takımını milli parklar girişine gelmeden önce kiralamanızı tavsiye ederim.
+                    Skipass 3 saatlik 650 TL. 1 günlük 950, internetten alırsanız 850 fakat onun için daha önceden alınmış karekodlu bir skipassinizin olması gerekiyor.</p>
+                  <h4>Ahmet Sevban</h4>
+                  <span>User #007724</span>
+                </div>
+                <div class="image">
+                  <img src="assets/images/author.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="clients">
+            <div class="row">
+              <div class="col-lg-2 col-4">
+                <img src="assets/images/contest-01.jpg" alt="">
+              </div>
+              <div class="col-lg-2 col-4">
+                <img src="assets/images/contest-02.jpg" alt="">
+              </div>
+              <div class="col-lg-2 col-4">
+                <img src="assets/images/contest-01.jpg" alt="">
+              </div>
+              <div class="col-lg-2 col-4">
+                <img src="assets/images/contest-02.jpg" alt="">
+              </div>
+              <div class="col-lg-2 col-4">
+                <img src="assets/images/contest-01.jpg" alt="">
+              </div>
+              <div class="col-lg-2 col-4">
+                <img src="assets/images/contest-02.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="no-space">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Bu site Murat Güven Kaya Tarafında Ödev Olarak Tasarlanmıştır</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
